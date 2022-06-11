@@ -15,9 +15,10 @@
 <body class="sbody">
     <header class="header">
         <a href="">
-            <img class="header__img animate__animated animate__flip animate__delay-2s 2s animate__slow 4s animate__infinite" src="https://img.icons8.com/cotton/344/tie.png" width="15vh" height="15vh"
-                alt="Logo">
+            <img class="header__img animate__animated animate__flip animate__delay-2s 2s animate__slow 4s animate__infinite"
+                src="https://img.icons8.com/cotton/344/tie.png" width="15vh" height="15vh" alt="Logo">
         </a>
+        <h1 class="header__t animate__animated animate__bounce"> JAVER </h1>
         <ul class="nav justify-content-center">
             <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
@@ -96,11 +97,13 @@
             </div>
         </section> 
         <footer class="footer">
-            <img class="header__img animate__animated animate__flip animate__delay-2s 2s animate__slow 4s animate__infinite"
+            <div class="footer__img" >
+            <img class="animate__animated animate__flip animate__delay-2s 2s animate__slow 4s animate__infinite"
                 src="https://img.icons8.com/cotton/344/tie.png" width="50" alt="Logo">
+                </div>
             <div class="boton">
                 <form action="contacto.html">
-                    <input type="submit" value="Reserva tu traje">
+                    <button type="submit" class="btn btn-secondary input" href="/pages/contacto.html">RESERVA TU TRAJE</button>
                 </form>
             </div>
             <br>
@@ -111,9 +114,11 @@
             </div>
             <div class="footer__lista">
                 <ul class="footer__ul">
-                    <button type="button" class="btn btn-secondary" href="/pages/contacto.html">CONTACTO</button>
-                    <button type="button" class="btn btn-secondary">MAPA</button>
-                    <button type="button" class="btn btn-secondary">LOGIN</button>
+                    <form action="contacto.html">
+                        <button type="submit" class="btn btn-secondary input" href="/pages/contacto.html">CONTACTO</button>
+                        <button type="submit" class="btn btn-secondary input">MAPA</button>
+                        <button type="submit" class="btn btn-secondary input">LOGIN</button>
+                    </form>
                 </ul>
             </div>
         </footer>

@@ -157,15 +157,20 @@
     </section>
     <section class="section2">
         <div>
-            <video class=" video animated__muted animated__infinit" src="./Contenido de marca/Trajes de novio y ceremonia Colección Ramón Sanjurjo 2019 - Vídeo BBWI.mp4"></video>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/jHmETlr-x0I" title="YouTube video player"
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
         </div>
     </section>
     <footer class="footer">
-        <img class="header__img animate__animated animate__flip animate__delay-2s 2s animate__slow 4s animate__infinite" src="https://img.icons8.com/cotton/344/tie.png" width="50" alt="Logo">
+        <div class="footer__img">
+            <img class="animate__animated animate__flip animate__delay-2s 2s animate__slow 4s animate__infinite"
+                src="https://img.icons8.com/cotton/344/tie.png" width="50" alt="Logo">
+        </div>
         <div class="boton">
-        <form action="contacto.html"> 
-            <input class="input" type="submit" value="Reserva tu traje">
-        </form>
+            <form action="./pages/contacto.html">
+                <button type="submit" class="btn btn-secondary input" href="./pages/contacto.html">RESERVA TU TRAJE</button>
+            </form>
         </div>
        <br>
        <div>
@@ -175,9 +180,11 @@
        </div>
        <div class="footer__lista">
         <ul class="footer__ul">
-            <button type="button" class="btn btn-secondary" href="/pages/contacto.html" >CONTACTO</button>
-            <button type="button" class="btn btn-secondary">MAPA</button>
-            <button type="button" class="btn btn-secondary">LOGIN</button>
+            <form action="./pages/contacto.html">
+            <button type="submit" class="btn btn-secondary input" href="../Respaldo CODER/pages/contacto.html">CONTACTO</button> 
+            <button type="submit" class="btn btn-secondary input">MAPA</button>
+            <button type="submit" class="btn btn-secondary input">LOGIN</button>
+            </form>
        </ul>
        </div>
     </footer>

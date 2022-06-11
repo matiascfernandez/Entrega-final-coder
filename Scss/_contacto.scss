@@ -25,20 +25,25 @@
             justify-content: center;
             text-align: center;
         }
+
+        .contactomain__section2__1 {
+            display: flex;
           .contactomain__section2__form {
               padding: 2em;
-              width: 30vw;
               background-color: rgba(34, 34, 59, 0.726);
               color: rgb(242, 233, 228);
               text-align: center;
-          }
+              display: inline-block;
+                  }
                   .contactomain__section2__info {
                       padding: 2em;
                       background-color: rgba(34, 34, 59, 0.726);
                       color: rgb(242, 233, 228);
-                      width: 30vw;
+                      width: 100%;
                       text-align: center;
+                      display: inline-block;
                   }
+                                   }
                                   .contactomain__section2__map {
                                       background-color: rgba(34, 34, 59, 0.726);
                                       color: rgb(242, 233, 228);

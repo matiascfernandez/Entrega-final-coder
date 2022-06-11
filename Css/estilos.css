@@ -22,13 +22,11 @@
     text-align: center; }
   .header .animate__animated.animate__bounce {
     --animate-duration: 4s; }
-  .header .header__nav {
+  .header .nav {
     font-size: 1.5rem;
     text-align: center; }
-  .header .header__nav__link {
+  .header .nav-link {
     font-size: medium;
-    color: #22223b; }
-  .header .nav__link {
     color: #22223b; }
 
 .body {
@@ -62,7 +60,8 @@
     text-align: center; }
   .main__section2 .main__section2__img {
     width: auto;
-    height: 10vh; }
+    height: 10vh;
+    border-radius: 50%; }
 
 .main__section3 {
   width: 100%;
@@ -141,6 +140,9 @@
   .footer .footer__ul {
     list-style: none;
     color: #f2e9e4; }
+  .footer .footer__img {
+    padding: 2em;
+    margin: auto; }
 
 .empresamain__section1 {
   grid-area: emsection1; }
@@ -249,11 +251,22 @@
   text-align: center; }
 
 .catalogomain__section2 {
-  padding: 8em;
+  padding: 4em;
   background-color: #9a8c98;
   color: #22223b;
   text-align: center;
   grid-area: camsection2; }
+  .catalogomain__section2 .accordion-header {
+    padding: 2em;
+    background-color: #9a8c98;
+    color: #22223b; }
+  .catalogomain__section2 .accordion-button {
+    padding-bottom: 4em;
+    background-color: #9a8c98;
+    color: #22223b; }
+  .catalogomain__section2 .accordion-body {
+    background-color: #9a8c98;
+    color: #22223b; }
 
 .catalogofooter__ul {
   width: 100%;
@@ -282,18 +295,21 @@
     flex-direction: column;
     justify-content: center;
     text-align: center; }
-  .contactomain__section2 .contactomain__section2__form {
-    padding: 2em;
-    width: 30vw;
-    background-color: rgba(34, 34, 59, 0.726);
-    color: #f2e9e4;
-    text-align: center; }
-  .contactomain__section2 .contactomain__section2__info {
-    padding: 2em;
-    background-color: rgba(34, 34, 59, 0.726);
-    color: #f2e9e4;
-    width: 30vw;
-    text-align: center; }
+  .contactomain__section2 .contactomain__section2__1 {
+    display: flex; }
+    .contactomain__section2 .contactomain__section2__1 .contactomain__section2__form {
+      padding: 2em;
+      background-color: rgba(34, 34, 59, 0.726);
+      color: #f2e9e4;
+      text-align: center;
+      display: inline-block; }
+    .contactomain__section2 .contactomain__section2__1 .contactomain__section2__info {
+      padding: 2em;
+      background-color: rgba(34, 34, 59, 0.726);
+      color: #f2e9e4;
+      width: 100%;
+      text-align: center;
+      display: inline-block; }
   .contactomain__section2 .contactomain__section2__map {
     background-color: rgba(34, 34, 59, 0.726);
     color: #f2e9e4;
