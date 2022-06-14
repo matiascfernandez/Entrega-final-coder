@@ -35,11 +35,8 @@
               @include flex (inline-block, center);
                   }
                   .contactomain__section2__info {
-                      padding: 2em;
-                      background-color: rgba(34, 34, 59, 0.726);
-                      color: rgb(242, 233, 228);
+                      @extend .contactomain__section2__form;
                       width: 100%;
-                      @include flex (inline-block, center);
                   }
                                    }
                                   .contactomain__section2__map {
