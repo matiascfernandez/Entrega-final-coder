@@ -1,6 +1,6 @@
-@mixin flex ($inlineblock, $textaligne) {
+@mixin flex ($inlineblock, $textalign) {
 
     display: flex;
     display: $inlineblock;
-    text-align: $textaligne;
+    text-align: $textalign;
 }
