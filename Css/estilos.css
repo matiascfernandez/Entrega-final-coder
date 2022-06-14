@@ -51,8 +51,8 @@
     margin: auto;
     padding: 2em;
     display: flex;
-    text-align: center;
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
   .main__section2 .main__section2__titulo {
     width: 100%;
     color: #22223b;
@@ -78,10 +78,12 @@
     text-align: center; }
   .main__section3 .imagenes__contenedor {
     display: flex;
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
   .main__section3 .imagenes__div {
     display: flex;
     display: inline-block;
+    text-align: center;
     overflow: hidden;
     width: 300px;
     height: 200px; }
@@ -102,7 +104,9 @@
   .section .section__div__iconos {
     margin: auto;
     padding: auto;
-    display: inline-block; }
+    display: flex;
+    display: inline-block;
+    text-align: center; }
 
 .section2 {
   width: 100%;
@@ -124,6 +128,7 @@
   .footer .icon {
     display: flex;
     display: inline-block;
+    text-align: center;
     justify-content: right;
     animation: float 4s ease-in infinite; }
 
@@ -158,8 +163,9 @@
   background-color: #9a8c98;
   color: #22223b;
   width: 100%;
-  text-align: center;
   display: flex;
+  display: inline-block;
+  text-align: center;
   justify-content: center;
   flex-wrap: wrap;
   grid-area: emsection 2; }
@@ -177,7 +183,7 @@
     align-items: center; }
     .empresamain__section2 .empresamain__section2__2 .empresamain__section2__2div {
       padding: 3em;
-      background-color: rgba(34, 34, 59, 0.726);
+      background-color: #22223b;
       color: #f2e9e4;
       width: 70%;
       margin: auto;
@@ -204,8 +210,7 @@
   .serviciosmain__section2 .serviciosmain__section2__1 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center; }
+    justify-content: center; }
     .serviciosmain__section2 .serviciosmain__section2__1 .serviciosmain__section2__t {
       padding: 1em;
       width: 100%;
@@ -301,15 +306,17 @@
       padding: 2em;
       background-color: rgba(34, 34, 59, 0.726);
       color: #f2e9e4;
-      text-align: center;
-      display: inline-block; }
+      display: flex;
+      display: inline-block;
+      text-align: center; }
     .contactomain__section2 .contactomain__section2__1 .contactomain__section2__info {
       padding: 2em;
       background-color: rgba(34, 34, 59, 0.726);
       color: #f2e9e4;
       width: 100%;
-      text-align: center;
-      display: inline-block; }
+      display: flex;
+      display: inline-block;
+      text-align: center; }
   .contactomain__section2 .contactomain__section2__map {
     background-color: rgba(34, 34, 59, 0.726);
     color: #f2e9e4;

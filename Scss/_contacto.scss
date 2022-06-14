@@ -6,7 +6,7 @@
 }
 
 .contactomain__section1__t {
-    background-color: rgb(34, 34, 59);
+    background-color: map-get($mapa-colores, azul);
     color: rgb(242, 233, 228);
     text-align: center;
 }
@@ -14,7 +14,7 @@
 
 .contactomain__section2 {
     padding: 3em;
-    background-color: rgb(154, 140, 152);
+    background-color: map-get($mapa-colores, lila);
     color: rgb(34, 34, 59);
     display: flex;
     justify-content: center;
@@ -32,16 +32,14 @@
               padding: 2em;
               background-color: rgba(34, 34, 59, 0.726);
               color: rgb(242, 233, 228);
-              text-align: center;
-              display: inline-block;
+              @include flex (inline-block, center);
                   }
                   .contactomain__section2__info {
                       padding: 2em;
                       background-color: rgba(34, 34, 59, 0.726);
                       color: rgb(242, 233, 228);
                       width: 100%;
-                      text-align: center;
-                      display: inline-block;
+                      @include flex (inline-block, center);
                   }
                                    }
                                   .contactomain__section2__map {

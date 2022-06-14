@@ -12,22 +12,22 @@
 
 .catalogomain__section2 {
     padding: 4em;
-    background-color: rgb(154, 140, 152);
+    background-color: map-get($mapa-colores, lila);
     color: rgb(34, 34, 59);
     text-align: center;
     grid-area: camsection2;
     .accordion-header{
         padding:2em;
-        background-color: rgb(154, 140, 152);
+        background-color: map-get($mapa-colores, lila);
         color: rgb(34, 34, 59);
     }
     .accordion-button {
         padding-bottom: 4em;
-        background-color: rgb(154, 140, 152);
+        background-color: map-get($mapa-colores, lila);
         color: rgb(34, 34, 59);
     }
     .accordion-body{
-        background-color: rgb(154, 140, 152);
+        background-color: map-get($mapa-colores, lila);
         color: rgb(34, 34, 59);
     }
 }

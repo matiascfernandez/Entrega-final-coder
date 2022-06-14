@@ -1,7 +1,7 @@
 .header {
     padding: 1em;
     grid-area: header;
-    background-color: rgb(154, 140, 152);
+    background-color: map-get($mapa-colores, lila);
     color: rgb(242, 233, 228);
 
     .header__img {

@@ -1,6 +1,6 @@
 .main__section1 {
     grid-area: main__section1;
-    background-color: rgb(34, 34, 59);
+    background-color: map-get($mapa-colores, azul);
 
     .main__section1__img{
         width: 100%;
@@ -10,16 +10,14 @@
 
 .main__section2 {
     flex-wrap: wrap;
-    background-color: rgb(154, 140, 152);
+    background-color: map-get($mapa-colores, lila);
     display: flex;
     grid-area: main__section2;
 
     .main__section2__div{
         margin: auto;
         padding: 2em;
-        display: flex;
-        text-align: center;
-        display: inline-block
+        @include flex (inline-block,center);
     }
 
     .main__section2__titulo{
@@ -44,7 +42,7 @@
     padding: 4em;
     flex-wrap: wrap;
     text-align: center;
-    background-color: rgb(34, 34, 59);
+    background-color: map-get($mapa-colores, azul );
     grid-area: main__section3;
 
     .main__section3__titulo{
@@ -55,13 +53,11 @@
     }
 
     .imagenes__contenedor {
-        display: flex;
-        display: inline-block;
+        @include flex (inline-block,center);
     }
 
     .imagenes__div {
-        display: flex;
-        display: inline-block;
+        @include flex (inline-block, center);
         overflow: hidden;
         width: 300px;
         height: 200px;
@@ -80,7 +76,7 @@
 .section {
     flex-wrap: wrap;
     padding: 1em;
-    background-color: rgb(154, 140, 152);
+    background-color: map-get($mapa-colores, lila);
     grid-area: section;
 
     .section__div {
@@ -91,7 +87,7 @@
     .section__div__iconos {
         margin: auto;
         padding: auto;
-        display: inline-block;
+        @include flex (inline-block, center);
     }
 }
 
@@ -99,7 +95,7 @@
 .section2 {
     width: 100%;
     grid-area: video;
-    background-color: rgb(34, 34, 59);
+    background-color: map-get($mapa-colores , azul );
     margin: auto;
     flex-wrap: wrap;
 

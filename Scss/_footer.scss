@@ -1,6 +1,6 @@
 .footer {
     padding: 2em;
-    background-color: rgb(34, 34, 59);
+    background-color: map-get($mapa-colores, azul);
     grid-area: footer;
 
     .boton {
@@ -10,8 +10,7 @@
     }
 
     .icon {
-        display: flex;
-        display: inline-block;
+        @include flex (inline-block, center);
         justify-content: right;
         animation: float 4s ease-in infinite;
     }

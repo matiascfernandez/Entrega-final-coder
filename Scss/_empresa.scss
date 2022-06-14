@@ -6,7 +6,7 @@
 }
 
 .empresamain__section1__t {
-    background-color: rgb(34, 34, 59);
+    background-color: map-get($mapa-colores, azul );
     color: rgb(242, 233, 228);
     text-align: center;
 }
@@ -14,11 +14,10 @@
 
 
 .empresamain__section2 {
-    background-color: rgb(154, 140, 152);
+    background-color: map-get($mapa-colores, lila );
     color: rgb(34, 34, 59);
     width: 100%;
-    text-align: center;
-    display: flex;
+    @include flex (inline-block, center);
     justify-content: center;
     flex-wrap: wrap;
     grid-area: emsection 2;
@@ -29,7 +28,7 @@
             justify-content: center;
         }
         .empresamain__section2__2 {
-            background-color: rgb(154, 140, 152);
+            background-color: map-get($mapa-colores, lila );
             width: 100%;
             display: flex;
             justify-content: center;
@@ -37,7 +36,7 @@
             align-items: center;
             .empresamain__section2__2div {
                     padding: 3em;
-                    background-color: rgba(34, 34, 59, 0.726);
+                    background-color: map-get($mapa-colores, azul );
                     color: rgb(242, 233, 228);
                     width: 70%;
                     margin: auto;
